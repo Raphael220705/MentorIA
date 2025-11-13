@@ -1,0 +1,12 @@
+{
+  "name": "mentoria",
+  "version": "1.0.0",
+  "description": "Um chatbot inteligente que utiliza a API do Google Gemini para responder perguntas sobre programação, integrando web scraping de conteúdo educacional.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
