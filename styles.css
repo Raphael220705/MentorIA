@@ -285,8 +285,10 @@ main{
 }
 
 #toggleDarkMode {
-      background-color: #e2e2e2;
+    background-color: #e2e2e2;
     color: #333;
+    margin-bottom: -10px;
+    
 }
 
 .font-controls button:hover {

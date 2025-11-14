@@ -102,7 +102,7 @@ def get_smart_response(message):
     """Resposta inteligente baseada na mensagem"""
     msg = message.lower()
     
-    if any(word in msg for word in ["inscrever", "inscrição", "inscrever", "cadastrar"]):
+    if any(word in msg for word in [ "inscrição",  "cadastrar"]):
         return "📝 Para se inscrever no Programa Jovem Programador, você pode:\n\n1. Acessar o site oficial do programa\n2. Preencher o formulário de inscrição\n3. Aguardar o processo seletivo\n4. Participar das aulas e atividades\n\n💡 É um programa excelente para aprender programação!"
     
     elif any(word in msg for word in ["olá", "oi", "hello", "bom dia", "boa tarde"]):
