@@ -140,7 +140,7 @@ function clearChat() {
 }
 
 
-let currentFontSize = 20; 
+let currentFontSize = 22; 
 
 // Botões de controle
 document.getElementById('increaseFont').addEventListener('click', () => changeFontSize(2));
@@ -148,7 +148,7 @@ document.getElementById('decreaseFont').addEventListener('click', () => changeFo
 
 // Função para alterar o tamanho da fonte
 function changeFontSize(delta) {
-    currentFontSize = Math.min(32, Math.max(12, currentFontSize + delta));
+    currentFontSize = Math.min(44, Math.max(22, currentFontSize + delta));
     atualizarTamanhoMensagens();
 }
 
