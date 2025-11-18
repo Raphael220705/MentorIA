@@ -277,19 +277,28 @@ main{
 #increaseFont {
     background-color: #5a0ab0;
     color: #f1f1f1;
+    border-radius: 50px;
 }
 
 #decreaseFont {
     background-color: #e2e2e2;
     color: #333;
+    border-radius: 50px;
 }
 
 #toggleDarkMode {
     background-color: #e2e2e2;
     color: #333;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
+   border-radius: 50px;
+   
 }
-
+#botao {
+    margin-bottom: -7px;
+    margin-top: -4px;
+ 
+}
+ 
 .font-controls button:hover {
     transform: scale(1.1);
     filter: brightness(1.1);
