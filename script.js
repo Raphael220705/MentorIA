@@ -1,5 +1,5 @@
 // Configuração da API
-const API_BASE_URL = ' https://backend2-26.onrender.com';
+const API_BASE_URL = ' https://backend2-27.onrender.com';
 
 // Elementos DOM
 const chatMessages = document.getElementById('chatMessages');
